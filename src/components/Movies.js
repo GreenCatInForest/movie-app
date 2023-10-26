@@ -2,7 +2,7 @@ import { MovieCard } from "./MovieCard";
 
 export const Movies = () => {
   return (
-    <div>
+    <div className="d-flex flex-row text-center justify-content-evenly flex-wrap">
       <MovieCard />
       <MovieCard />
       <MovieCard />
