@@ -1,9 +1,9 @@
-export const MovieCard = () => {
+export const MovieCard = ({ imageUrl, title }) => {
   return (
     <div class="card movie-card m-3">
-      <img src="..." class="card-img-top" alt="movie banner" />
+      <img src={imageUrl} class="card-img-top" alt={title} />
       <div class="card-body text-center">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">{title}</h5>
         <p class="card-text">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
