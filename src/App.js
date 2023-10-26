@@ -1,5 +1,11 @@
-export const App = () => {
-  return <div>App</div>;
-};
+import { Banner } from "./components/Banner";
+import { Movies } from "./components/Movies";
 
-export default App;
+export const App = () => {
+  return (
+    <div>
+      <Banner />
+      <Movies />
+    </div>
+  );
+};
