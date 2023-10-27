@@ -1,14 +1,12 @@
+//A ccepting destructured props from movies from App.js
+
 export const MovieCard = ({ imageUrl, title }) => {
   return (
-    <div class="card movie-card m-3">
-      <img src={imageUrl} class="card-img-top" alt={title} />
-      <div class="card-body text-center">
-        <h5 class="card-title">{title}</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <button type="button" class="btn btn-primary">
+    <div className="card movie-card m-3">
+      <img src={imageUrl} className="card-img-top" alt={title} />
+      <div className="card-body text-center">
+        <h5 className="card-title">{title}</h5>
+        <button type="button" className="btn btn-primary">
           Add to Fav
         </button>
       </div>
